@@ -62,10 +62,27 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+
+
 p {
     line-height: 1.4;
 }
+.navbar{
+    padding:3%;
+    display:flex; 
+    justify-content: space-evenly;
+}
+.links{
+    display:flex;
+    margin:auto;
+    
+   }
 
+.center {
+    width: 40%;
+    margin: auto;
+    display: block;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -95,23 +112,72 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middle-content .boxes{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
+.middle-content .boxes {
+    height: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: center;
+   
 }
 
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background-color:black;
+    margin: 10px;
+    color: #fff;
+    font-size: 2rem;
+ }
+
+ .box-1 {
+     background: teal;
+ }
+
+ .box-2{
+     background-color: gold;
+ }
+
+ .box-3{
+     background-color: cadetblue;
+ }
+
+ .box-4{
+     background-color: coral;
+ }
+
+ .box-5 {
+     background-color: crimson;
+ }
+
+ .box-6 {
+     background-color: forestgreen;
+ }
+
+ .box-7 {
+    background-color: darkorchid;
+ }
+
+ .box-8{
+     background-color: hotpink;
+ }
+
+ .box-9{
+     background-color: indigo;
+ }
+
+ .box-10{
+     background-color: dodgerblue;
+ }
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
