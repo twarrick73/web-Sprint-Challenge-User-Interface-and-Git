@@ -101,6 +101,20 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.about-page{
+    width: 49%;
+    
+}  
+.about{
+   margin:0 10%;   
+   padding:1% 0;
+   border-bottom: dotted black;   
+}  
+
+.info{
+    display: flex;
+    padding-top: 1%;
+}
 
 .middle-content {
     margin-bottom: 20px;
